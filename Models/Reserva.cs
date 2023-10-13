@@ -17,7 +17,7 @@ namespace DesafioProjetoHospedagem.Models
         {
             // TODO: Verificar se a capacidade é maior ou igual ao número de hóspedes sendo recebido
             // *IMPLEMENTE AQUI*
-            var capacidade = Suite.Capacidade;
+            int capacidade = Suite.Capacidade;
             if (capacidade >= hospedes.Count)
             {
                 Hospedes = hospedes;
@@ -37,7 +37,7 @@ namespace DesafioProjetoHospedagem.Models
 
         public int ObterQuantidadeHospedes()
         {
-            var quantdHospedes = Hospedes.Count;
+            int quantdHospedes = Hospedes.Count;
             // TODO: Retorna a quantidade de hóspedes (propriedade Hospedes)
             // *IMPLEMENTE AQUI*
 
